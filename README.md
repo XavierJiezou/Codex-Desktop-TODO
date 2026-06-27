@@ -2,6 +2,14 @@
 
 一个极简的 Windows 桌面 TODO 便签应用。它像小便签一样贴在桌面上，适合放几件今天一定要记住的小事。
 
+![Codex Desktop TODO screenshot](docs/screenshot.png)
+
+## 下载
+
+Windows 便携版可以在 GitHub Release 中下载：
+
+[下载 DesktopTODO-0.1.0.exe](https://github.com/XavierJiezou/Codex-Desktop-TODO/releases/tag/v0.1.0)
+
 ## 功能
 
 - 无边框桌面小窗，可拖动、调整大小。
