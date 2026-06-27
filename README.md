@@ -1,18 +1,18 @@
 # Codex Desktop TODO
 
-一个极简的 Windows 桌面 TODO 便签应用。它像小便签一样贴在桌面上，适合放几件今天一定要记住的小事。
+一个极简的 Windows 桌面 TODO 便签应用。发布版是轻量原生 Windows 程序，不使用 Electron，安装包目标体积小于 1MB。
 
 ![Codex Desktop TODO screenshot](docs/screenshot.png)
 
 ## 下载
 
-Windows 便携版可以在 GitHub Release 中下载：
+Windows 安装包可以在 GitHub Release 中下载：
 
-[下载 DesktopTODO-0.1.0.exe](https://github.com/XavierJiezou/Codex-Desktop-TODO/releases/tag/v0.1.0)
+[下载 CodexDesktopTODO-Setup-0.2.0.exe](https://github.com/XavierJiezou/Codex-Desktop-TODO/releases/latest)
 
 ## 功能
 
-- 无边框桌面小窗，可拖动、调整大小。
+- 无边框桌面小窗，可拖动。
 - 默认置顶，可一键取消置顶。
 - 可锁定位置，避免误拖动。
 - 支持添加、完成、删除、双击编辑 TODO。
@@ -22,31 +22,19 @@ Windows 便携版可以在 GitHub Release 中下载：
 
 ## 开发
 
-```bash
-npm install
-npm run start
+```powershell
+.\build.ps1
 ```
 
 ## 打包
 
-```bash
-npm run build
-```
-
-打包后的 Windows portable 程序会生成在 `dist/` 目录中。
+构建后的安装包会生成在 `dist/` 目录中。
 
 ## 技术栈
 
-- Electron
-- 原生 HTML / CSS / JavaScript
-- Vitest
-- electron-builder
-
-## 测试
-
-```bash
-npm test
-```
+- C# / WinForms
+- .NET Framework
+- NSIS
 
 ## License
 

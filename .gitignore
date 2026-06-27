@@ -1,7 +1,7 @@
-node_modules/
+build/
 dist/
-release/
+node_modules/
 *.log
-.vite/
-coverage/
 ui-preview*.png
+*.user
+*.suo
